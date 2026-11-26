@@ -1,5 +1,17 @@
 {
+  "name": "frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "daisyui": "^4.12.24"
+    "daisyui": "^4.12.24",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "p1": "file:.."
   }
 }
